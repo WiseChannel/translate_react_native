@@ -111,18 +111,21 @@ main section {
 main .nameArticle {
   width: 20%;
   height: auto;
-  background-color: aqua;
   overflow-y: scroll;
 }
 
 main .nameArticle div {
-  height: calc(147.5vh - 50px);
+  height: calc(1210px);
   overflow-y: auto;
+  text-align: center;
 }
 
 main .article {
   max-width: 80%;
   height: auto;
-  background-color: grey;
+}
+
+main .article p {
+  padding: 20px 50px;
 }
 /*# sourceMappingURL=GettingStarted.css.map */

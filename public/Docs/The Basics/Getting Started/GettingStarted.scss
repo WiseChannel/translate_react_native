@@ -87,21 +87,24 @@ main {
     .nameArticle {
         width: 20%;
         height: auto;
-        background-color: aqua;
+        // background-color: aqua;
 
 
         overflow-y: scroll;
         
         div {
-            height: calc(147.5vh - 50px);
+            height: calc(1210px);
             overflow-y: auto;
+            text-align: center;
         }
     }
 
     .article {
         max-width: 80%;
         height: auto;
-        background-color: grey;
-    
+        // background-color: grey;
+        p {
+            padding: 20px 50px;
+        }
     }
 }
