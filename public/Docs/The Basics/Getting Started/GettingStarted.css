@@ -112,12 +112,14 @@ main .nameArticle {
   width: 20%;
   height: auto;
   overflow-y: scroll;
+  margin: 0 0 0 80px;
 }
 
 main .nameArticle div {
   height: calc(1210px);
   overflow-y: auto;
-  text-align: center;
+  text-align: left;
+  padding-top: 20px;
 }
 
 main .article {

@@ -88,14 +88,13 @@ main {
         width: 20%;
         height: auto;
         // background-color: aqua;
-
-
         overflow-y: scroll;
-        
+        margin: 0 0 0 80px;    
         div {
             height: calc(1210px);
             overflow-y: auto;
-            text-align: center;
+            text-align: left;
+            padding-top: 20px;
         }
     }
 
