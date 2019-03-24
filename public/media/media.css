@@ -13,7 +13,7 @@
         align-items: left;
     }
 
-    .nameArticle {
+     main .nameArticle {
         display: none;
     }
 
@@ -39,7 +39,7 @@
         align-items: left;
     }
 
-    .nameArticle {
+    main .nameArticle {
         display: none;
     }
 
@@ -64,7 +64,7 @@
         align-items: left;
     }
 
-    .nameArticle {
+    main .nameArticle {
         display: none;
     }
 
@@ -82,13 +82,22 @@
 
     main .nameArticle {
         width: 20%;
-        height: 3200px !important;
+        height: auto !important;
         overflow-y: scroll;
         margin: 0 0 0 30px;
     }
 
     .nameArticle {
         display: block;
+    }
+
+    main .article {
+        max-width: 70%;
+        height: calc(920px);
+    }
+
+    main .nameArticle div {
+        height: calc(970px) !important;
     }
 
     #listHead {
@@ -103,7 +112,7 @@
 
     main .nameArticle {
         width: 20%;
-        height: 2100px !important;
+        height: 2100px;
         overflow-y: scroll;
         margin: 0 0 0 60px;
     }
