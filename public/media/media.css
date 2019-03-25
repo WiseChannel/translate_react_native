@@ -70,7 +70,14 @@
 
     main .article p {
         padding: 20px 5px;
+        
     }
+
+    main .article {
+        max-width: 90% !important;
+        height: calc(920px);
+    }
+    
 
 }
 
