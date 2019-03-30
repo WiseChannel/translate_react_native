@@ -2,58 +2,221 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="22b512ac-a9f9-4d85-b931-c2c2855a0666" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/Docs/The Basics/Props/props.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/Docs/The Basics/Props/props.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/Docs/The Basics/Props/props.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/Docs/The Basics/Props/props.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/Img/DarkPurpleTheme.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/Img/Learn_the_Basics.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Docs/The Basics/Height and Width/Height_and_Width .scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Docs/The Basics/Height and Width/Height_and_Width.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Docs/The Basics/Props/props.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Docs/The Basics/Props/props.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Docs/The Basics/Props/props.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Docs/The Basics/Props/props.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Docs/The Basics/State/state.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Docs/The Basics/State/state.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Docs/The Basics/Style/style.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Docs/The Basics/Style/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Img/DarkPurpleTheme.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Img/Props.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Img/Props_Img_Two.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Docs/The Basics/Getting Started/GettingStarted.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/Docs/The Basics/Getting Started/GettingStarted.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Docs/The Basics/Getting Started/GettingStarted.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/build/Docs/The Basics/Getting Started/GettingStarted.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Docs/The Basics/Getting Started/GettingStarted.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/Docs/The Basics/Getting Started/GettingStarted.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Docs/The Basics/Getting Started/GettingStarted.scss" beforeDir="false" afterPath="$PROJECT_DIR$/build/Docs/The Basics/Getting Started/GettingStarted.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Docs/The Basics/Getting Started/Getting_Started.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/Docs/The Basics/Getting Started/Getting_Started.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Docs/The Basics/Learn the Basics/Learn_the_Bacsics.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/Docs/The Basics/Learn the Basics/Learn_the_Bacsics.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Docs/The Basics/Learn the Basics/Learn_the_Basics.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/Docs/The Basics/Learn the Basics/Learn_the_Basics.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Docs/The Basics/Learn the Basics/Learn_the_Basics.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/build/Docs/The Basics/Learn the Basics/Learn_the_Basics.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Docs/The Basics/Learn the Basics/Learn_the_Basics.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/Docs/The Basics/Learn the Basics/Learn_the_Basics.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Docs/The Basics/Learn the Basics/Learn_the_Basics.scss" beforeDir="false" afterPath="$PROJECT_DIR$/build/Docs/The Basics/Learn the Basics/Learn_the_Basics.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/asset-manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/media/media.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/media/media.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/precache-manifest.11dbe536faea81eb0be833b9bd414444.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/service-worker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/main.5e158310.chunk.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/main.5e158310.chunk.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/2.0c28d90d.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/2.0c28d90d.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.c7c612b0.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.c7c612b0.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/runtime~main.a8a9905a.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/runtime~main.a8a9905a.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Docs/The Basics/Getting Started/GettingStarted.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/Docs/The Basics/Getting Started/GettingStarted.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Docs/The Basics/Getting Started/GettingStarted.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/Docs/The Basics/Getting Started/GettingStarted.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Docs/The Basics/Getting Started/GettingStarted.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/Docs/The Basics/Getting Started/GettingStarted.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Docs/The Basics/Getting Started/Getting_Started.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/Docs/The Basics/Getting Started/Getting_Started.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Docs/The Basics/Learn the Basics/Learn_the_Bacsics.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/Docs/The Basics/Learn the Basics/Learn_the_Bacsics.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Docs/The Basics/Learn the Basics/Learn_the_Basics.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/Docs/The Basics/Learn the Basics/Learn_the_Basics.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Docs/The Basics/Learn the Basics/Learn_the_Basics.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/Docs/The Basics/Learn the Basics/Learn_the_Basics.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Docs/The Basics/Learn the Basics/Learn_the_Basics.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/Docs/The Basics/Learn the Basics/Learn_the_Basics.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/media/media.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/media/media.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/package.json">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/Docs/The Basics/Style/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+            <state relative-caret-position="704">
+              <caret line="174" selection-start-line="174" selection-end-line="174" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/Docs/The Basics/Style/style.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+              <folding>
+                <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/Docs/The Basics/Height and Width/Height_and_Width.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="44" column="48" selection-start-line="44" selection-start-column="48" selection-end-line="44" selection-end-column="48" />
+              <folding>
+                <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/Docs/The Basics/Height and Width/Height_and_Width .scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="126" column="30" lean-forward="true" selection-end-line="174" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/Docs/The Basics/Getting Started/Getting_Started.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="471">
+              <caret line="44" column="52" selection-start-line="44" selection-start-column="52" selection-end-line="44" selection-end-column="52" />
+              <folding>
+                <element signature="n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/Docs/The Basics/Learn the Basics/Learn_the_Bacsics.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="516">
+              <caret line="44" column="52" selection-start-line="44" selection-start-column="52" selection-end-line="44" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/Docs/The Basics/Props/props.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="403">
+              <caret line="43" column="48" selection-start-line="43" selection-start-column="48" selection-end-line="43" selection-end-column="48" />
+              <folding>
+                <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/Docs/The Basics/State/state.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="44" column="48" selection-start-line="44" selection-start-column="48" selection-end-line="44" selection-end-column="48" />
+              <folding>
+                <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/media/media.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="150" column="19" selection-start-line="150" selection-start-column="19" selection-end-line="150" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="scss" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>regularHeight</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
-    <package-json value="$PROJECT_DIR$/package.json" />
-  </component>
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/node_modules" />
-  </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths>
-      <path value="$PROJECT_DIR$/package.json" />
-    </packageJsonPaths>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/public/Docs/The Basics/Learn the Basics/Learn_the_Basics.scss" />
+        <option value="$PROJECT_DIR$/public/Docs/The Basics/Getting Started/GettingStarted.scss" />
+        <option value="$PROJECT_DIR$/public/Docs/The Basics/Props/props.scss" />
+        <option value="$PROJECT_DIR$/public/media/media.css" />
+        <option value="$PROJECT_DIR$/public/Docs/The Basics/State/state.scss" />
+        <option value="$PROJECT_DIR$/public/Docs/The Basics/Height and Width/Height and Width .scss" />
+        <option value="$PROJECT_DIR$/public/Docs/The Basics/Height and Width/Height and Width.html" />
+        <option value="$PROJECT_DIR$/public/Docs/The Basics/Height and Width/Height_and_Width .scss" />
+        <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/public/Docs/The Basics/Style/style.scss" />
+        <option value="$PROJECT_DIR$/public/Docs/The Basics/Getting Started/Getting_Started.html" />
+        <option value="$PROJECT_DIR$/public/Docs/The Basics/Height and Width/Height_and_Width.html" />
+        <option value="$PROJECT_DIR$/public/Docs/The Basics/Learn the Basics/Learn_the_Bacsics.html" />
+        <option value="$PROJECT_DIR$/public/Docs/The Basics/Props/props.html" />
+        <option value="$PROJECT_DIR$/public/Docs/The Basics/State/state.html" />
+        <option value="$PROJECT_DIR$/public/Docs/The Basics/Style/style.html" />
+      </list>
+    </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="877" />
   </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -61,19 +224,90 @@
               <item name="transfer_react_native" type="b2602c69:ProjectViewProjectNode" />
               <item name="transfer_react_native" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="transfer_react_native" type="b2602c69:ProjectViewProjectNode" />
+              <item name="transfer_react_native" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="transfer_react_native" type="b2602c69:ProjectViewProjectNode" />
+              <item name="transfer_react_native" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="Docs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="transfer_react_native" type="b2602c69:ProjectViewProjectNode" />
+              <item name="transfer_react_native" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="Docs" type="462c0819:PsiDirectoryNode" />
+              <item name="The Basics" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="transfer_react_native" type="b2602c69:ProjectViewProjectNode" />
+              <item name="transfer_react_native" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="Docs" type="462c0819:PsiDirectoryNode" />
+              <item name="The Basics" type="462c0819:PsiDirectoryNode" />
+              <item name="Getting Started" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="transfer_react_native" type="b2602c69:ProjectViewProjectNode" />
+              <item name="transfer_react_native" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="Docs" type="462c0819:PsiDirectoryNode" />
+              <item name="The Basics" type="462c0819:PsiDirectoryNode" />
+              <item name="Height and Width" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="transfer_react_native" type="b2602c69:ProjectViewProjectNode" />
+              <item name="transfer_react_native" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="Docs" type="462c0819:PsiDirectoryNode" />
+              <item name="The Basics" type="462c0819:PsiDirectoryNode" />
+              <item name="Learn the Basics" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="transfer_react_native" type="b2602c69:ProjectViewProjectNode" />
+              <item name="transfer_react_native" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="Docs" type="462c0819:PsiDirectoryNode" />
+              <item name="The Basics" type="462c0819:PsiDirectoryNode" />
+              <item name="Props" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="transfer_react_native" type="b2602c69:ProjectViewProjectNode" />
+              <item name="transfer_react_native" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="Docs" type="462c0819:PsiDirectoryNode" />
+              <item name="The Basics" type="462c0819:PsiDirectoryNode" />
+              <item name="State" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="transfer_react_native" type="b2602c69:ProjectViewProjectNode" />
+              <item name="transfer_react_native" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="Docs" type="462c0819:PsiDirectoryNode" />
+              <item name="The Basics" type="462c0819:PsiDirectoryNode" />
+              <item name="Style" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="$PROJECT_DIR$/node_modules/eslint" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -87,8 +321,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="build" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="npm.build">
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
@@ -96,8 +330,9 @@
       </scripts>
       <node-interpreter value="project" />
       <envs />
+      <method v="2" />
     </configuration>
-    <configuration name="test" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
+    <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
@@ -105,6 +340,7 @@
       </scripts>
       <node-interpreter value="project" />
       <envs />
+      <method v="2" />
     </configuration>
     <list>
       <item itemvalue="npm.build" />
@@ -112,8 +348,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.test" />
         <item itemvalue="npm.build" />
+        <item itemvalue="npm.test" />
       </list>
     </recent_temporary>
   </component>
@@ -128,48 +364,225 @@
       <option name="presentableId" value="Default" />
       <updated>1553434127727</updated>
       <workItem from="1553434129062" duration="459000" />
+      <workItem from="1553532260532" duration="662000" />
+      <workItem from="1553884025687" duration="18000" />
+      <workItem from="1553884068676" duration="130000" />
+      <workItem from="1553884376265" duration="6000" />
+      <workItem from="1553884410216" duration="74000" />
+      <workItem from="1553884513340" duration="631000" />
+      <workItem from="1553892458584" duration="105000" />
+      <workItem from="1553952556595" duration="6781000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="459000" />
+    <option name="totallyTimeSpent" value="8866000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33589745" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info id="npm" sideWeight="0.50128204" side_tool="true" visible="true" weight="0.24964234" />
-      <window_info anchor="bottom" id="Terminal" weight="0.4974359" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49871793" visible="true" weight="0.24964234" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49171975" visible="true" weight="0.21387696" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="npm" order="2" sideWeight="0.5082803" side_tool="true" weight="0.24964234" />
+      <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33503184" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3299363" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3923567" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/App.test.js" />
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="2" lean-forward="true" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/Docs/The Basics/Getting Started/GettingStarted.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="97" column="26" selection-start-line="97" selection-start-column="26" selection-end-line="97" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/Docs/The Basics/Learn the Basics/Learn_the_Basics.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="93" selection-start-line="93" selection-end-line="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/Docs/The Basics/Getting Started/GettingStarted.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1989">
+          <caret line="117" column="5" selection-end-line="165" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/Docs/The Basics/Props/props.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="193" lean-forward="true" selection-start-line="193" selection-end-line="193" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/media/media.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="150" column="19" selection-start-line="150" selection-start-column="19" selection-end-line="150" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/Docs/The Basics/Props/props.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="5" lean-forward="true" selection-end-line="165" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/Docs/Guides/name_guides.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/Docs/The Basics/State/state.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-373">
+          <caret line="20" column="16" lean-forward="true" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="40" column="46" lean-forward="true" selection-start-line="40" selection-start-column="46" selection-end-line="40" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/Docs/The Basics/Height and Width/Height_and_Width .scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="126" column="30" lean-forward="true" selection-end-line="174" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/Docs/The Basics/Style/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="704">
+          <caret line="174" selection-start-line="174" selection-end-line="174" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/Docs/The Basics/Getting Started/Getting_Started.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="471">
+          <caret line="44" column="52" selection-start-line="44" selection-start-column="52" selection-end-line="44" selection-end-column="52" />
+          <folding>
+            <element signature="n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/Docs/The Basics/Height and Width/Height_and_Width.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="44" column="48" selection-start-line="44" selection-start-column="48" selection-end-line="44" selection-end-column="48" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/Docs/The Basics/Learn the Basics/Learn_the_Bacsics.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="516">
+          <caret line="44" column="52" selection-start-line="44" selection-start-column="52" selection-end-line="44" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/Docs/The Basics/Props/props.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="43" column="48" selection-start-line="43" selection-start-column="48" selection-end-line="43" selection-end-column="48" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/Docs/The Basics/State/state.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="44" column="48" selection-start-line="44" selection-start-column="48" selection-end-line="44" selection-end-column="48" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/Docs/The Basics/Style/style.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>

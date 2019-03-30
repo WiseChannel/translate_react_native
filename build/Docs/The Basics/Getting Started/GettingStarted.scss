@@ -12,7 +12,6 @@ body {
     }
 }
 
-
 header {
     background-color: #222222;
     color: white;
@@ -93,7 +92,6 @@ main {
         height: auto;
         // background-color: aqua;
         overflow-y: scroll;
-        margin: 0 0 0 80px;    
         div {
             height: calc(1330px);
             overflow-y: auto;
@@ -125,7 +123,6 @@ main {
         overflow-y: scroll;
         display: flex;
         justify-content: left;
-        align-items: left;
         flex-direction: column;
         // background-color: grey;
 

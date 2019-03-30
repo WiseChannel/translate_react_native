@@ -148,7 +148,7 @@
     }
 
     main .nameArticle {
-        width: 100%;
+        width: 30%;
         height: auto;
         overflow-y: scroll;
         /* margin: 0 60px 0 60px; */
@@ -168,11 +168,13 @@
     main .nameArticle div {
         height: calc(900px);
     }
-    
+
     main {
         max-width: 1200px;
         margin: 0 auto;
     }
+
+}
 
 
 @media only screen and (min-width: 1920px) and (max-width: 10000px) {
@@ -181,7 +183,4 @@
     }
 
     
-}
-
-
 }
