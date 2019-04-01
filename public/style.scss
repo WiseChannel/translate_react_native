@@ -134,6 +134,23 @@ nav {
 main {
     text-align: center;
     padding: 150px 0;
+
+    section {
+        article {
+            max-width: 900px;
+            margin: 40px auto;
+
+            div {
+                padding: 25px 0;
+                background-color: lightcyan;
+
+
+                code {
+                    
+                }
+            }
+        }
+    }
 }
 
 
@@ -141,5 +158,4 @@ main {
 footer {
     height: 100px;
     background-color: #222222;
- 
 }
