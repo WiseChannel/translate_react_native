@@ -2,24 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="22b512ac-a9f9-4d85-b931-c2c2855a0666" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/public/Docs/The Basics/Handing Text Input/Handing_Text_Input.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Docs/The Basics/Handing Text Input/Handing_Text_input.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Docs/The Basics/Layout with Flexbox/Layout_With_Flexbox.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Docs/The Basics/Layout with Flexbox/Layout_With_Flexbox.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Docs/The Basics/Layout with Flexbox/Layout_With_Flexbox.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Img/LayoutWithFlexbox.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Img/LayoutWithFlexbox_one.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Img/LayoutWithFlexbox_two.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/Docs/The Basics/Getting Started/Getting_Started.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/Docs/The Basics/Getting Started/Getting_Started.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/Docs/The Basics/Height and Width/Height_and_Width.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/Docs/The Basics/Height and Width/Height_and_Width.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/Docs/The Basics/Learn the Basics/Learn_the_Bacsics.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/Docs/The Basics/Learn the Basics/Learn_the_Bacsics.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/Docs/The Basics/Props/props.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/Docs/The Basics/Props/props.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/Docs/The Basics/State/state.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/Docs/The Basics/State/state.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/Docs/The Basics/Style/style.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/Docs/The Basics/Style/style.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/media/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/media/test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/style.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -109,7 +91,7 @@
         <entry file="file://$PROJECT_DIR$/public/style.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="483">
-              <caret line="148" column="20" lean-forward="true" selection-start-line="148" selection-start-column="20" selection-end-line="148" selection-end-column="20" />
+              <caret line="148" lean-forward="true" selection-start-line="148" selection-end-line="148" />
             </state>
           </provider>
         </entry>
@@ -335,12 +317,12 @@
       <workItem from="1553884513340" duration="631000" />
       <workItem from="1553892458584" duration="105000" />
       <workItem from="1553952556595" duration="6987000" />
-      <workItem from="1554110057204" duration="3616000" />
+      <workItem from="1554110057204" duration="3815000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12688000" />
+    <option name="totallyTimeSpent" value="12887000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -591,7 +573,7 @@
     <entry file="file://$PROJECT_DIR$/public/style.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="483">
-          <caret line="148" column="20" lean-forward="true" selection-start-line="148" selection-start-column="20" selection-end-line="148" selection-end-column="20" />
+          <caret line="148" lean-forward="true" selection-start-line="148" selection-end-line="148" />
         </state>
       </provider>
     </entry>
