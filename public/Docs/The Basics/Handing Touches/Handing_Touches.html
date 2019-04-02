@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="shortcut icon" href="../../../Img/black_icon_react.png">
-    <title>Style</title>
+    <title>Handing Touches</title>
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Handing_Touches.css">
     <link rel="stylesheet" href="../../../media/media.css">
+
 </head>
 <body>
 
@@ -44,8 +45,8 @@
                 <li><a href="../Style/style.html">Style</a></li>
                 <li><a href="../Height%20and%20Width/Height_and_Width.html">Heigth and Width</a></li>
                 <li><a href="../Layout%20with%20Flexbox/Layout_With_Flexbox.html">Layout with Flexbox</a></li>
-                <li><a href="../Handing%20Text%20Input/Handing_Text_Input.html">Handing Text Input</a></li>
-                <li><a href="../Handing%20Touches/Handing_Touches.html">Handing Touches</a></li>
+                <li><a href="../Handing%20Text%20Input/Handing_Text_Input.html">Handing Text Input</a> </li>
+                <li><a href="Handing_Touches.html">Handing Touches</a></li>
                 <li>Using a ScrollView</li>
                 <li>Networking</li>
                 <li>More Resources</li>
@@ -82,28 +83,30 @@
     </section>
 
     <section class="article">
-       <h1>Style (стиль)
-       </h1>
-        <p>В React Native вы не используете специальный язык или синтаксис для определения стиля. Вы просто создаёте стиль, использую JavaScript. Все основные компоненты поддерживают prop с названием <span id="commandText">style.</span>  Имена стилей и их значения обычно совпадают с тем как CSS работает в web, за исключением имён, написанных с «верблюжьей оболочкой», например <span id="commandText">backgroundColor</span>  вместо <span id="commandText">background-color.</span>
+        <h1>Handling Touches (обработка прикосновений)
+        </h1>
+        <p>Пользователь взаимодействует с мобильными приложениями в основном с помощью прикосновений. Они могут использовать комбинацию жестов, например: нажатие кнопки, прокрутка списка или масштабирование карты. React Native предоставляет компоненты для обработки всевозможных общих жестов, а также комплексную систему реагирования на жесты, обеспечивающую ещё более расширенное распознавание жестов. Но один компонент, которые вас, скорее всего, заинтересует – то кнопка.
         </p>
-        <p> <span id="commandText">Style</span>  pror может быть простым старым объектом JavaScript. Это самый простой вариант и его мы используем для примеров кода. Вы также можете передать массив стилей – последний стиль в массиве имеет приоритет, поэтому вы можете использовать его для наследования стилей.
+        <h1>Отображение обычной кнопки
+        </h1>
+        <p>Кнопка обеспечивает компонент обычной кнопки, который хорошо рендерится на всех платформах. Минимальный пример отображения кнопки выглядит так:
         </p>
-        <p>Так как компоненты становятся сложнее, проще использовать <span id="commandText">StyleSheet.create</span>  для определения нескольких стилей в одном месте. Вот пример:
-        </p>
-        <div>
-            <img src="../../../Img/Style.png" alt="StyleIMG">
+        <div id="comment">
+            <code>
+                Button
+                        onPress={() => {
+                Alert.alert('You tapped the button!');
+                }}
+                title="Press Me"
+                />
+            </code>
         </div>
-        <p>Один из простейших шаблонов – заставить ваш компонент принимать style prop, который, в свою очередь, используется для стилизации подкомпонентов. Вы можете это использовать чтобы сделать каскадный стили (“cascade”), как в CSS.
-        </p>
-        <p>Есть ещё множество способов изменить стиль текста. Посмотрите <a href="http://facebook.github.io/react-native/docs/text">здесь</a>  полный список.
-        </p>
-        <p>Теперь вы можете делать свой текст красивым. Следующий шаг к становлению мастером стиля – это <a
-                href="http://facebook.github.io/react-native/docs/height-and-width">выучить как контролировать размер компонента.</a>
-        </p>
+
     </section>
 
 </main>
 
+<footer></footer>
 
 </body>
 </html>

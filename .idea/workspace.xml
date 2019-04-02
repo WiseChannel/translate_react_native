@@ -2,7 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="22b512ac-a9f9-4d85-b931-c2c2855a0666" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/public/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Docs/The Basics/Handing Touches/Handing_Touches.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Docs/The Basics/Handing Touches/Handing_Touches.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Docs/The Basics/Getting Started/Getting_Started.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/Docs/The Basics/Getting Started/Getting_Started.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Docs/The Basics/Handing Text Input/Handing_Text_Input.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/Docs/The Basics/Handing Text Input/Handing_Text_Input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Docs/The Basics/Handing Text Input/Handing_Text_input.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/Docs/The Basics/Handing Text Input/Handing_Text_input.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Docs/The Basics/Height and Width/Height_and_Width.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/Docs/The Basics/Height and Width/Height_and_Width.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Docs/The Basics/Layout with Flexbox/Layout_With_Flexbox.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/Docs/The Basics/Layout with Flexbox/Layout_With_Flexbox.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Docs/The Basics/Learn the Basics/Learn_the_Bacsics.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/Docs/The Basics/Learn the Basics/Learn_the_Bacsics.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Docs/The Basics/Props/props.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/Docs/The Basics/Props/props.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Docs/The Basics/State/state.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/Docs/The Basics/State/state.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Docs/The Basics/Style/style.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/Docs/The Basics/Style/style.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,8 +26,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/Docs/The Basics/Style/style.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="340">
+              <caret line="37" column="16" lean-forward="true" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
               <folding>
                 <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
               </folding>
@@ -27,26 +38,38 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/Docs/The Basics/Handing Text Input/Handing_Text_Input.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="32" column="9" lean-forward="true" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+            <state relative-caret-position="316">
+              <caret line="51" column="32" selection-start-line="51" selection-start-column="32" selection-end-line="51" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/Docs/The Basics/Layout with Flexbox/Layout_With_Flexbox.html">
+        <entry file="file://$PROJECT_DIR$/public/Docs/The Basics/Height and Width/Height_and_Width.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="417">
-              <caret line="48" column="35" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="35" />
+            <state relative-caret-position="410">
+              <caret line="48" column="59" selection-start-line="48" selection-start-column="59" selection-end-line="48" selection-end-column="59" />
+              <folding>
+                <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/Docs/The Basics/Handing Text Input/Handing_Text_input.scss">
+        <entry file="file://$PROJECT_DIR$/public/Docs/The Basics/Handing Touches/Handing_Touches.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="142" column="22" lean-forward="true" selection-start-line="142" selection-start-column="22" selection-end-line="142" selection-end-column="22" />
+            <state relative-caret-position="357">
+              <caret line="86" column="13" lean-forward="true" selection-start-line="86" selection-start-column="13" selection-end-line="86" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/Docs/The Basics/Handing Touches/Handing_Touches.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="419">
+              <caret line="140" column="30" lean-forward="true" selection-start-line="140" selection-start-column="30" selection-end-line="140" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -54,44 +77,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/Docs/The Basics/Learn the Basics/Learn_the_Bacsics.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="489">
-              <caret line="103" column="80" selection-start-line="103" selection-start-column="68" selection-end-line="103" selection-end-column="80" />
-              <folding>
-                <element signature="e#5609#5613#0" expanded="true" />
-                <element signature="e#5617#5621#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="362">
+              <caret line="48" column="95" selection-start-line="48" selection-start-column="95" selection-end-line="48" selection-end-column="95" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/index.html">
+        <entry file="file://$PROJECT_DIR$/public/Docs/The Basics/Layout with Flexbox/Layout_With_Flexbox.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="545">
-              <caret line="75" column="20" selection-start-line="75" selection-start-column="20" selection-end-line="75" selection-end-column="20" />
-              <folding>
-                <element signature="e#2174#2178#0" expanded="true" />
-                <element signature="e#2182#2186#0" expanded="true" />
-                <element signature="e#2201#2205#0" expanded="true" />
-                <element signature="e#2209#2213#0" expanded="true" />
-                <element signature="e#2292#2296#0" expanded="true" />
-                <element signature="e#2301#2305#0" expanded="true" />
-                <element signature="e#2320#2324#0" expanded="true" />
-                <element signature="e#2328#2332#0" expanded="true" />
-                <element signature="e#2457#2461#0" expanded="true" />
-                <element signature="e#2466#2470#0" expanded="true" />
-                <element signature="e#2485#2489#0" expanded="true" />
-                <element signature="e#2494#2498#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/style.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="148" lean-forward="true" selection-start-line="148" selection-end-line="148" />
+            <state relative-caret-position="362">
+              <caret line="48" column="91" lean-forward="true" selection-start-line="48" selection-start-column="91" selection-end-line="48" selection-end-column="91" />
             </state>
           </provider>
         </entry>
@@ -99,8 +95,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/Docs/The Basics/Props/props.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="454">
-              <caret line="46" column="102" selection-start-line="46" selection-start-column="102" selection-end-line="46" selection-end-column="102" />
+            <state relative-caret-position="510">
+              <caret line="47" column="72" selection-start-line="47" selection-start-column="72" selection-end-line="47" selection-end-column="72" />
               <folding>
                 <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
               </folding>
@@ -111,8 +107,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/Docs/The Basics/State/state.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="47" column="102" selection-start-line="47" selection-start-column="102" selection-end-line="47" selection-end-column="102" />
+            <state relative-caret-position="527">
+              <caret line="48" column="91" lean-forward="true" selection-start-line="48" selection-start-column="91" selection-end-line="48" selection-end-column="91" />
               <folding>
                 <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
               </folding>
@@ -123,8 +119,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/Docs/The Basics/Getting Started/Getting_Started.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="47" column="24" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="106" />
+            <state relative-caret-position="259">
+              <caret line="49" column="34" selection-start-line="49" selection-start-column="34" selection-end-line="49" selection-end-column="34" />
               <folding>
                 <element signature="n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
               </folding>
@@ -145,6 +141,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>regularHeight</find>
+      <find>#comment</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -163,17 +160,19 @@
         <option value="$PROJECT_DIR$/public/Docs/The Basics/Height and Width/Height_and_Width .scss" />
         <option value="$PROJECT_DIR$/public/Docs/The Basics/Style/style.scss" />
         <option value="$PROJECT_DIR$/public/Docs/The Basics/Layout with Flexbox/Layout_With_Flexbox.scss" />
+        <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/public/style.scss" />
         <option value="$PROJECT_DIR$/public/Docs/The Basics/Handing Text Input/Handing_Text_input.scss" />
-        <option value="$PROJECT_DIR$/public/Docs/The Basics/Layout with Flexbox/Layout_With_Flexbox.html" />
+        <option value="$PROJECT_DIR$/public/Docs/The Basics/Handing Touches/Handing_Touches.scss" />
         <option value="$PROJECT_DIR$/public/Docs/The Basics/Getting Started/Getting_Started.html" />
+        <option value="$PROJECT_DIR$/public/Docs/The Basics/Handing Text Input/Handing_Text_Input.html" />
+        <option value="$PROJECT_DIR$/public/Docs/The Basics/Height and Width/Height_and_Width.html" />
+        <option value="$PROJECT_DIR$/public/Docs/The Basics/Layout with Flexbox/Layout_With_Flexbox.html" />
+        <option value="$PROJECT_DIR$/public/Docs/The Basics/Learn the Basics/Learn_the_Bacsics.html" />
         <option value="$PROJECT_DIR$/public/Docs/The Basics/Props/props.html" />
         <option value="$PROJECT_DIR$/public/Docs/The Basics/State/state.html" />
         <option value="$PROJECT_DIR$/public/Docs/The Basics/Style/style.html" />
-        <option value="$PROJECT_DIR$/public/Docs/The Basics/Height and Width/Height_and_Width.html" />
-        <option value="$PROJECT_DIR$/public/Docs/The Basics/Handing Text Input/Handing_Text_Input.html" />
-        <option value="$PROJECT_DIR$/public/Docs/The Basics/Learn the Basics/Learn_the_Bacsics.html" />
-        <option value="$PROJECT_DIR$/public/index.html" />
-        <option value="$PROJECT_DIR$/public/style.scss" />
+        <option value="$PROJECT_DIR$/public/Docs/The Basics/Handing Touches/Handing_Touches.html" />
       </list>
     </option>
   </component>
@@ -193,6 +192,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -224,21 +224,12 @@
               <item name="public" type="462c0819:PsiDirectoryNode" />
               <item name="Docs" type="462c0819:PsiDirectoryNode" />
               <item name="The Basics" type="462c0819:PsiDirectoryNode" />
-              <item name="Learn the Basics" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="transfer_react_native" type="b2602c69:ProjectViewProjectNode" />
-              <item name="transfer_react_native" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="Docs" type="462c0819:PsiDirectoryNode" />
-              <item name="The Basics" type="462c0819:PsiDirectoryNode" />
               <item name="Style" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -318,11 +309,12 @@
       <workItem from="1553892458584" duration="105000" />
       <workItem from="1553952556595" duration="6987000" />
       <workItem from="1554110057204" duration="3815000" />
+      <workItem from="1554199619797" duration="1418000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12887000" />
+    <option name="totallyTimeSpent" value="14305000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -337,7 +329,7 @@
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49171975" visible="true" weight="0.2167382" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49171975" visible="true" weight="0.21959943" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" sideWeight="0.5082803" side_tool="true" weight="0.24964234" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -467,34 +459,72 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1275">
+          <caret line="75" column="20" selection-start-line="75" selection-start-column="20" selection-end-line="75" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="135" column="21" lean-forward="true" selection-start-line="135" selection-start-column="21" selection-end-line="135" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/Docs/The Basics/Handing Text Input/Handing_Text_input.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="142" column="22" lean-forward="true" selection-start-line="142" selection-start-column="22" selection-end-line="142" selection-end-column="22" />
+        <state relative-caret-position="493">
+          <caret line="29" column="28" lean-forward="true" selection-end-line="174" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/Docs/The Basics/Getting Started/Getting_Started.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="47" column="24" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="106" />
+        <state relative-caret-position="259">
+          <caret line="49" column="34" selection-start-line="49" selection-start-column="34" selection-end-line="49" selection-end-column="34" />
           <folding>
             <element signature="n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/Docs/The Basics/Handing Text Input/Handing_Text_Input.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="51" column="32" selection-start-line="51" selection-start-column="32" selection-end-line="51" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/Docs/The Basics/Height and Width/Height_and_Width.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="48" column="59" selection-start-line="48" selection-start-column="59" selection-end-line="48" selection-end-column="59" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/Docs/The Basics/Layout with Flexbox/Layout_With_Flexbox.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="48" column="35" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="35" />
+        <state relative-caret-position="362">
+          <caret line="48" column="91" lean-forward="true" selection-start-line="48" selection-start-column="91" selection-end-line="48" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/Docs/The Basics/Learn the Basics/Learn_the_Bacsics.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="48" column="95" selection-start-line="48" selection-start-column="95" selection-end-line="48" selection-end-column="95" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/Docs/The Basics/Props/props.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="454">
-          <caret line="46" column="102" selection-start-line="46" selection-start-column="102" selection-end-line="46" selection-end-column="102" />
+        <state relative-caret-position="510">
+          <caret line="47" column="72" selection-start-line="47" selection-start-column="72" selection-end-line="47" selection-end-column="72" />
           <folding>
             <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
           </folding>
@@ -503,8 +533,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/Docs/The Basics/State/state.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="47" column="102" selection-start-line="47" selection-start-column="102" selection-end-line="47" selection-end-column="102" />
+        <state relative-caret-position="527">
+          <caret line="48" column="91" lean-forward="true" selection-start-line="48" selection-start-column="91" selection-end-line="48" selection-end-column="91" />
           <folding>
             <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
           </folding>
@@ -513,67 +543,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/Docs/The Basics/Style/style.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="340">
+          <caret line="37" column="16" lean-forward="true" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
           <folding>
             <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/Docs/The Basics/Height and Width/Height_and_Width.html">
+    <entry file="file://$PROJECT_DIR$/public/Docs/The Basics/Handing Touches/Handing_Touches.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="49" column="43" lean-forward="true" selection-start-line="49" selection-start-column="43" selection-end-line="49" selection-end-column="43" />
-          <folding>
-            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
+        <state relative-caret-position="357">
+          <caret line="86" column="13" lean-forward="true" selection-start-line="86" selection-start-column="13" selection-end-line="86" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/Docs/The Basics/Handing Text Input/Handing_Text_Input.html">
+    <entry file="file://$PROJECT_DIR$/public/Docs/The Basics/Handing Touches/Handing_Touches.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="32" column="9" lean-forward="true" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/Docs/The Basics/Learn the Basics/Learn_the_Bacsics.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="489">
-          <caret line="103" column="80" selection-start-line="103" selection-start-column="68" selection-end-line="103" selection-end-column="80" />
-          <folding>
-            <element signature="e#5609#5613#0" expanded="true" />
-            <element signature="e#5617#5621#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="545">
-          <caret line="75" column="20" selection-start-line="75" selection-start-column="20" selection-end-line="75" selection-end-column="20" />
-          <folding>
-            <element signature="e#2174#2178#0" expanded="true" />
-            <element signature="e#2182#2186#0" expanded="true" />
-            <element signature="e#2201#2205#0" expanded="true" />
-            <element signature="e#2209#2213#0" expanded="true" />
-            <element signature="e#2292#2296#0" expanded="true" />
-            <element signature="e#2301#2305#0" expanded="true" />
-            <element signature="e#2320#2324#0" expanded="true" />
-            <element signature="e#2328#2332#0" expanded="true" />
-            <element signature="e#2457#2461#0" expanded="true" />
-            <element signature="e#2466#2470#0" expanded="true" />
-            <element signature="e#2485#2489#0" expanded="true" />
-            <element signature="e#2494#2498#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="148" lean-forward="true" selection-start-line="148" selection-end-line="148" />
+        <state relative-caret-position="419">
+          <caret line="140" column="30" lean-forward="true" selection-start-line="140" selection-start-column="30" selection-end-line="140" selection-end-column="30" />
         </state>
       </provider>
     </entry>
