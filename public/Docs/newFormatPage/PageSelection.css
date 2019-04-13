@@ -59,3 +59,7 @@ main .container {
     margin: 0 auto;
     max-width: 60%;
     padding: 10px 25px; }
+
+footer {
+  height: 100px;
+  background-color: #222222; }
