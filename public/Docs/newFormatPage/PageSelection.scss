@@ -78,24 +78,27 @@ header {
 main {
   .container {
     display: flex;
-    justify-content: center;
-    .fixedSec {
-      background-color: lightcyan;
-      width: 20%;
 
+    .fixedSec {
+      //background-color: lightcyan;
+      max-width: 40%;
+      padding: 0 25px;
+      position: fixed;
+      display: block;
       ul {
         li {
           list-style-type: none;
-          padding: 5px 10px;
+          padding: 10px 75px;
         }
       }
 
     }
 
     .mainArticle {
-      background-color: lightgray;
-      max-width: 80%;
-      overflow-x: scroll;
+      //background-color: lightgray;
+      margin: 0 auto;
+      max-width: 60%;
+      padding: 10px 25px;
     }
 
   }
