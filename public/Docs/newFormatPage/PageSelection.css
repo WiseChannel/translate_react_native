@@ -46,15 +46,20 @@ header {
             color: white; }
 
 main .container {
-  display: flex;
-  justify-content: center; }
+  display: flex; }
   main .container .fixedSec {
-    background-color: lightcyan;
-    width: 20%; }
+    max-width: 40%;
+    padding: 0 25px;
+    position: fixed;
+    display: block; }
     main .container .fixedSec ul li {
       list-style-type: none;
-      padding: 5px 10px; }
+      padding: 10px 75px; }
   main .container .mainArticle {
-    background-color: lightgray;
-    max-width: 80%;
-    overflow-x: scroll; }
+    margin: 0 auto;
+    max-width: 60%;
+    padding: 10px 25px; }
+
+footer {
+  height: 100px;
+  background-color: #222222; }

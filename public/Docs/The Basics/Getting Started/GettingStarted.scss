@@ -83,7 +83,7 @@ main {
     align-items: baseline;
 
     section {
-        overflow-y: scroll;
+        //overflow-y: scroll;
         position: sticky;
     }
 
@@ -91,7 +91,7 @@ main {
         width: 20%;
         height: auto;
         // background-color: aqua;
-        overflow-y: scroll;
+        //overflow-y: scroll;
         div {
             height: calc(1330px);
             overflow-y: auto;
