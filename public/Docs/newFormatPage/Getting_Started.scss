@@ -101,12 +101,59 @@ main {
       padding: 40px 25px;
     }
 
+
+    #cd {
+      color: red;
+    }
+
+    #comment {
+      color: #586e75;
+    }
+
+    #commandText {
+      background-color: rgba(27,31,35,.05);
+      padding: 3.2px 6.4px;
+      color: #586e75;
+    }
+
+    p {
+      padding: 25px 0;
+    }
+
+    div  {
+      display: block;
+      text-align: center;
+      img {
+        max-width: 100%;
+      }
+    }
+
+
   }
 
 }
 
 
+
 footer {
   height: 100px;
   background-color: #222222;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  section {
+
+    .footerContainer {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      height: 100%;
+
+      p {
+        color: white;
+        padding: 0 15px;
+      }
+    }
+  }
 }

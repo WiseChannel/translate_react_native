@@ -1,4 +1,6 @@
-@media only screen and (max-width: 320px) {
+
+
+@media only screen and (min-width: 0) and (max-width: 320px) {
     #listHead ul {
         display: none;
     }
@@ -19,6 +21,10 @@
 
     main .article p {
         padding: 20px 5px;
+    }
+
+    .fixedSec {
+        display: none !important;
     }
 
 }
@@ -45,6 +51,10 @@
 
     main .article p {
         padding: 20px 5px;
+    }
+
+    main .container .fixedSec {
+        display: none !important;
     }
 
 }
@@ -110,6 +120,11 @@
     #listHead {
         display: block;
     }
+
+    main .container .fixedSec {
+        max-width: 30%;
+        padding: 40px 5px;
+    }
     
 }
 
@@ -130,6 +145,11 @@
 
     #listHead {
         display: block;
+    }
+
+    main .container .fixedSec {
+        max-width: 30%;
+        padding: 40px 5px;
     }
 }
 
@@ -161,6 +181,16 @@
     #listHead {
         display: block;
     }
+
+    main .container .fixedSec {
+        max-width: 30%;
+        padding: 40px 5px;
+    }
+
+    header section .container {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
 }
 
 
@@ -174,12 +204,27 @@
         margin: 0 auto;
     }
 
+    header section .container {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
 }
 
 
 @media only screen and (min-width: 1920px) and (max-width: 10000px) {
     main .nameArticle div {
         height: calc(1730px);
+    }
+
+    main {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    header section .container {
+        max-width: 1200px;
+        margin: 0 auto;
     }
 
     

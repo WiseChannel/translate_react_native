@@ -59,6 +59,21 @@ main .container {
     margin: 0 auto;
     max-width: 60%;
     padding: 40px 25px; }
+  main .container #cd {
+    color: red; }
+  main .container #comment {
+    color: #586e75; }
+  main .container #commandText {
+    background-color: rgba(27, 31, 35, 0.05);
+    padding: 3.2px 6.4px;
+    color: #586e75; }
+  main .container p {
+    padding: 25px 0; }
+  main .container div {
+    display: block;
+    text-align: center; }
+    main .container div img {
+      max-width: 100%; }
 
 footer {
   height: 100px;
