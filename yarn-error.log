@@ -1,11 +1,11 @@
 Arguments: 
-  /usr/local/bin/node /usr/local/Cellar/yarn/1.13.0/libexec/bin/yarn.js install
+  /usr/local/bin/node /usr/local/Cellar/yarn/1.15.2/libexec/bin/yarn.js install
 
 PATH: 
-  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/wise/.rvm/bin:/usr/local/mysql/bin/:/Users/wise/.rvm/bin:/usr/local/mysql/bin/
+  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/wise/Desktop/transfer_react_native/node_modules/.bin:/Users/wise/.rvm/bin:/usr/local/mysql/bin/:/Users/wise/.rvm/bin:/usr/local/mysql/bin/
 
 Yarn version: 
-  1.13.0
+  1.15.2
 
 Node version: 
   10.14.2
@@ -8184,7 +8184,7 @@ Lockfile:
     resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.8.4.tgz#90f336a68c3a29a096a3d648ab80e87ec61482a2"
     integrity sha512-PVadd+WaUDOAciICm/J1waJaSvgq+4rHE/K70j0PFqKhkTBsPv/82UGQJNXAngz1fOQLLxI6z1sEDmJDQhCTAA==
   
-  react-scripts@2.1.8:
+  react-scripts@^2.1.8:
     version "2.1.8"
     resolved "https://registry.yarnpkg.com/react-scripts/-/react-scripts-2.1.8.tgz#21195bb928b2c0462aa98b2d32edf7d034cff2a9"
     integrity sha512-mDC8fYWCyuB9VROti8OCPdHE79UEchVVZmuS/yaIs47VkvZpgZqUvzghYBswZRchqnW0aARNY8xXrzoFRhhK7A==
@@ -10002,10 +10002,10 @@ Lockfile:
       watchpack "^1.5.0"
       webpack-sources "^1.3.0"
   
-  webpack@^4.29.6:
-    version "4.29.6"
-    resolved "https://registry.yarnpkg.com/webpack/-/webpack-4.29.6.tgz#66bf0ec8beee4d469f8b598d3988ff9d8d90e955"
-    integrity sha512-MwBwpiE1BQpMDkbnUUaW6K8RFZjljJHArC6tWQJoFm0oQtfoSebtg4Y7/QHnJ/SddtjYLHaKGX64CFjG5rehJw==
+  webpack@^4.30.0:
+    version "4.30.0"
+    resolved "https://registry.yarnpkg.com/webpack/-/webpack-4.30.0.tgz#aca76ef75630a22c49fcc235b39b4c57591d33a9"
+    integrity sha512-4hgvO2YbAFUhyTdlR4FNyt2+YaYBYHavyzjCMbZzgglo02rlKi/pcsEzwCuCpsn1ryzIl1cq/u8ArIKu8JBYMg==
     dependencies:
       "@webassemblyjs/ast" "1.8.5"
       "@webassemblyjs/helper-module-context" "1.8.5"
