@@ -1,6 +1,6 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import Redux from 'redux'
+// import React from 'react';
+// import ReactDOM from 'react-dom';
+// import Redux from 'redux'
 // import './index.css';
 // import App from 'App';
 // import MyCom from 'MyCom'
