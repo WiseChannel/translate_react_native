@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Height and Width</title>
+
+    <link rel="stylesheet" href="Layout_With_Flexbox.css">
+    <link rel="stylesheet" href="../../../media/media.css">
+
+
+</head>
+<body>
+
+<header>
+    <section>
+        <div class="container">
+            <div class="row">
+                <a href="../../../index.html"><img id="logoImg" src="../../../Img/header_logo.png" alt="LogoReact"></a>
+                <h3><a href="../../../index.html">React Native 0.59</a></h3>
+                <p><small>- by Wise</small></p>
+            </div>
+            <div id="listHead" class="row">
+                <ul>
+                    <li><a href="../../The%20Basics/Getting%20Started/Getting_Started.html">Документация</a></li>
+                    <li><a href="../../../Blog/Blog.html">Блог</a></li>
+                    <li><a href="#">О Нас</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+</header>
+
+<main>
+    <div class="container">
+        <section class="fixedSec">
+            <ul>
+                <li><a href="../Getting_Started/Getting_Started.html">Getting Started</a></li>
+                <li><a href="../Learn_the_Basics/Learn_the_Basics.html">Learn the Basics</a></li>
+                <li><a href="../Props/Props.html">Props</a></li>
+                <li><a href="../State/State.html"> State</a></li>
+                <li><a href="../Style/Style.html">Style</a></li>
+                <li><a href="../Height_and_Weight/Height_and_Width.html">Height and Width</a></li>
+                <li><a href="Layout_With_Flexbox.html">Layoute with Flexbox</a></li>
+                <li><a href="../Handing%20Text%20Input/Handing_Text_Input.html">Handing Text Inpute</a></li>
+                <li><a href="../Handing%20Touches/Handing_Touches.html">Handing Touches</a></li>
+                <li>Using a ScrollView</li>
+                <li>Networking</li>
+                <li>More Resources</li>
+            </ul>
+        </section>
+        <section class="mainArticle">
+            <article>
+        <h1>Layout with Flexbox (макеты Flexbox)
+        </h1>
+        <p>Компонент может определять расположение его детей, используя flexbox алгоритм.Flexbox разработан для обеспечения согласованного размера на разных экранах.
+        </p>
+        <p>Вы, в основном, будете использовать комбинации из <span id="commandText">flexDirection </span>, <span id="commandText"> alignItems</span> и <span id="commandText">justifyContent </span>, чтобы достичь правильного расположения.
+        </p>
+        <comment>Flexbox работает так же в React Native, как и в CSS, но с некоторыми отличиями. Значения по умолчанию отличаются: во <span id="commandText">flexDirection</span>  используется <span id="commandText">column</span> , а не  <span id="commandText">row</span>, а параметр <span id="commandText">flex</span>  поддерживает только одно число.
+        </comment>
+        <h1>Flex Direction
+        </h1>
+        <p>Добавление <span id="commandText">flexDirection</span>  в <span id="commandText">style</span> компонента определяет основную ось его компонента. Должны ли дети быть расположены горизонтально <span id="commandText">(row)</span> или вертикально <span id="commandText">(column)</span>? По умолчанию это <span id="commandText">column.</span>
+        </p>
+        <div>
+            <img src="../../../Img/LayoutWithFlexbox.png" alt="LayoutWithFlexbox">
+        </div>
+        <h1>Justify Content
+        </h1>
+        <p>Добавление justifyContent к стилю компонента определяет распределение дочерних элементов вдоль основной оси. Должны ли дети распределятся в начале, центре, конце или располагаться равномерно? Доступные опции: flex-start (в начале), center (в центре), flex-end (в конце), space-around (вокруг), space-between(между) и space-evently(по порядку).
+        </p>
+        <div>
+            <img src="../../../Img/LayoutWithFlexbox_one.png" alt="LayoutWithFlexbox_one">
+        </div>
+        <h1>Align Items
+        </h1>
+        <p>Добавление alignItems в стиль компонента определяет выравнивание дочерних элементов вдоль вторичной оси (если первичной осью является строка, тогда вторичной – столбец, и наоборот). Должны ли дети быть выровнены в начале, в центре, в конце или растянуты до заполнения? Доступные опции: flex-start (в начале), center (в центре), flex-end (в конце) и stretch(до заполнения).
+        </p>
+        <comment>Чтобы растяжение имело эффект, дочерние элементы не должны иметь фиксированный размер вдоль вторичной оси. В следующем примере установка alignItems: stretch ничего не делает, пока width: 50 не будет удалена из дочерних элементов.
+        </comment>
+        <div>
+            <img src="../../../Img/LayoutWithFlexbox_two.png" alt="LayoutWithFlexbox_two.png">
+        </div>
+        <h1>Углубление
+        </h1>
+        <p>Мы рассмотрели основы, но есть много других стилей, которые могут вам понадобиться для макетов. Полный список props, управляющих макетом, приведён
+            <a href="https://facebook.github.io/react-native/docs/layout-props">здесь.</a>
+        </p>
+        <p>Мы приближаемся к возможности создания реального приложения. Одна вещь, которой нам всё ещё не хватает, - это способ ввода данных пользователем, поэтому давайте перейдем к тому, как научиться обрабатывать ввод текста с помощью компонента
+            <a href="https://facebook.github.io/react-native/docs/handling-text-input">TextInput.</a>
+        </p>
+
+
+            </article>
+        </section>
+    </div>
+</main>
+
+<footer>
+    <section>
+        <div class="footerContainer">
+            <p>2019 #TeamWork_WiseINC</p>
+            <p>Контакты</p>
+            <p>Последнее обновление 20.04.19</p>
+        </div>
+    </section>
+</footer>
+
+</body>
+</html>

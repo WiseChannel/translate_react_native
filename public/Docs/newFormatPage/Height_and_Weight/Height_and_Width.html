@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Height and Width</title>
+
+    <link rel="stylesheet" href="Height_and_Width%20.css">
+    <link rel="stylesheet" href="../../../media/media.css">
+
+
+</head>
+<body>
+
+<header>
+    <section>
+        <div class="container">
+            <div class="row">
+                <a href="../../../index.html"><img id="logoImg" src="../../../Img/header_logo.png" alt="LogoReact"></a>
+                <h3><a href="../../../index.html">React Native 0.59</a></h3>
+                <p><small>- by Wise</small></p>
+            </div>
+            <div id="listHead" class="row">
+                <ul>
+                    <li><a href="../../The%20Basics/Getting%20Started/Getting_Started.html">Документация</a></li>
+                    <li><a href="../../../Blog/Blog.html">Блог</a></li>
+                    <li><a href="#">О Нас</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+</header>
+
+<main>
+    <div class="container">
+        <section class="fixedSec">
+            <ul>
+                <li><a href="Getting_Started.html">Getting Started</a></li>
+                <li><a href="../Learn_the_Basics/Learn_the_Basics.html">Learn the Basics</a></li>
+                <li><a href="../Props/Props.html">Props</a></li>
+                <li><a href="../State/State.html"> State</a></li>
+                <li><a href="../Style/Style.html">Style</a></li>
+                <li><a href="Height_and_Width.html">Height and Width</a></li>
+                <li><a href="../Layout%20with%20Flexbox/Layout_With_Flexbox.html">Layoute with Flexbox</a></li>
+                <li><a href="../Handing%20Text%20Input/Handing_Text_Input.html">Handing Text Inpute</a></li>
+                <li><a href="../Handing%20Touches/Handing_Touches.html">Handing Touches</a></li>
+                <li>Using a ScrollView</li>
+                <li>Networking</li>
+                <li>More Resources</li>
+            </ul>
+        </section>
+        <section class="mainArticle">
+        <article>
+        <h1>Height and Width (высота и ширина)
+        </h1>
+        <p>Высота и ширина компонентов определяют их размер на экране.
+        </p>
+        <h1>Fixed Dimensions (фиксированные размеры)
+        </h1>
+        <p> Самый простой способ установить размеры компонента – добавить фиксированные width и height к style. Все размеры в React Native не имеют единиц измерения и представляют собой независимые от плотности пиксели.
+        </p>
+        <div>
+            <img src="../../../Img/OneImgHeightAndWeight.png" alt="HightAndWidth">
+        </div>
+        <p>Устанавливать размер таким способом стоит компонентам, которые должны рендерится всегда с одним и тем же размером, не смотря на размер экрана.
+        </p>
+        <h1>Flex Dimensions (гибкие размеры)
+        </h1>
+        <p>Используйте flex в стиле компонента чтобы компонент динамически расширялся и сужался в зависимости от свободного места. Обычно, вы будете использовать flex: 1 , что говорит компоненту заполнить всё доступное пространство, делясь с другими компонентами у которых тот же родитель. Чем больше установлено значение flex, тем больше соотношение места, которое займёт компонент по сравнению с его братьями и сёстрами.
+        </p>
+        <comment>Компонент может расширятся, чтобы заолнить свободное пространство, если у его родителя размеры больше чем 0. Если у родителя не фиксированные width и height или flex, у родителя будет стоять размер 0 и flex ребёнок будет невидимым.
+        </comment>
+        <div>
+            <img src="../../../Img/HightAndWidth.png" alt="HightAndWidth">
+        </div>
+        <p>После того как вы научитесь контролировать размер, следующим шагом будет выучить <a href="http://facebook.github.io/react-native/docs/flexbox">как вывести это на экран.</a>
+        </p>
+
+        </article>
+        </section>
+    </div>
+</main>
+
+<footer>
+    <section>
+        <div class="footerContainer">
+            <p>2019 #TeamWork_WiseINC</p>
+            <p>Контакты</p>
+            <p>Последнее обновление 20.04.19</p>
+        </div>
+    </section>
+</footer>
+
+</body>
+</html>
