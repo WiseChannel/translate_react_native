@@ -2,7 +2,7 @@ Arguments:
   /usr/local/bin/node /usr/local/Cellar/yarn/1.15.2/libexec/bin/yarn.js add Redux
 
 PATH: 
-  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/wise/.rvm/bin:/usr/local/mysql/bin/:/Users/wise/.rvm/bin:/usr/local/mysql/bin/
+  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/wise/Desktop/transfer_react_native/node_modules/.bin:/Users/wise/.rvm/bin:/usr/local/mysql/bin/:/Users/wise/.rvm/bin:/usr/local/mysql/bin/
 
 Yarn version: 
   1.15.2
@@ -35,6 +35,7 @@ npm manifest:
       "react": "^16.8.4",
       "react-dom": "^16.8.4",
       "react-scripts": "^2.1.8",
+      "redux": "^4.0.1",
       "yarn": "^1.13.0"
     },
     "scripts": {
@@ -8176,6 +8177,14 @@ Lockfile:
     dependencies:
       minimatch "3.0.4"
   
+  redux@^4.0.1:
+    version "4.0.1"
+    resolved "https://registry.yarnpkg.com/redux/-/redux-4.0.1.tgz#436cae6cc40fbe4727689d7c8fae44808f1bfef5"
+    integrity sha512-R7bAtSkk7nY6O/OYMVR9RiBI+XghjF9rlbl5806HJbQph0LJVHZrU5oaO4q70eUKiqMRqm4y07KLTlMZ2BlVmg==
+    dependencies:
+      loose-envify "^1.4.0"
+      symbol-observable "^1.2.0"
+  
   regenerate-unicode-properties@^8.0.2:
     version "8.0.2"
     resolved "https://registry.yarnpkg.com/regenerate-unicode-properties/-/regenerate-unicode-properties-8.0.2.tgz#7b38faa296252376d363558cfbda90c9ce709662"
@@ -9179,6 +9188,11 @@ Lockfile:
       stable "^0.1.8"
       unquote "~1.1.1"
       util.promisify "~1.0.0"
+  
+  symbol-observable@^1.2.0:
+    version "1.2.0"
+    resolved "https://registry.yarnpkg.com/symbol-observable/-/symbol-observable-1.2.0.tgz#c22688aed4eab3cdc2dfeacbb561660560a00804"
+    integrity sha512-e900nM8RRtGhlV36KGEU9k65K3mPb1WV70OdjfxlG2EAuM1noi/E/BaW/uMhL7bPEssK8QV57vN3esixjUvcXQ==
   
   symbol-tree@^3.2.2:
     version "3.2.2"
