@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="../../../Img/black_icon_react.png">
+    <title>Style</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../../../media/media.scss">
+</head>
+<body>
+
+<header>
+    <section>
+        <div class="container">
+            <div class="row">
+                <a href="../../../index.html"><img id="logoImg" src="../../../Img/header_logo.png" alt="LogoReact"></a>
+                <h3><a href="../../../index.html">React Native 0.59</a></h3>
+                <p><small>- by Wise</small></p>
+            </div>
+            <div id="listHead" class="row">
+                <ul>
+                    <li><a href="../Getting Started/Getting_Started.html">Документация</a></li>
+                    <li><a href="../../../Blog/Blog.html">Блог</a></li>
+                    <li><a href="#">О Нас</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+</header>
+
+<main>
+
+    <section class="nameArticle">
+        <div>
+            <ul>
+                <li id="mainChapter"><b>The Basics</b></li>
+                <li><a href="../Getting Started/Getting_Started.html">Getting Started</a></li>
+                <li><a href="../Learn the Basics/Learn_the_Bacsics.html">Learn the Basics</a></li>
+                <li><a href="../Props/props.html">Props</a></li>
+                <li><a href="../State/state.html">State</a></li>
+                <li><a href="../Style/style.html">Style</a></li>
+                <li><a href="../../newFormatPage/Height_and_Weight/Height_and_Width.html">Heigth and Width</a></li>
+                <li><a href="../Layout%20with%20Flexbox/Layout_With_Flexbox.html">Layout with Flexbox</a></li>
+                <li><a href="../Handing%20Text%20Input/Handing_Text_Input.html">Handing Text Input</a></li>
+                <li><a href="../Handing%20Touches/Handing_Touches.html">Handing Touches</a></li>
+                <li>Using a ScrollView</li>
+                <li>Networking</li>
+                <li>More Resources</li>
+
+                <li id="mainChapter"><b>Guides</b></li>
+                <li>Components and APis</li>
+                <li>Platform Specific Code</li>
+                <li>Navigating Between Screens</li>
+                <li>Images</li>
+                <li>Animations</li>
+                <li>Accessibility</li>
+                <li>Improving User Experience</li>
+                <li>Timers</li>
+                <li>Debugging</li>
+                <li>Perfomance</li>
+                <li>Gesture Responder System</li>
+                <li>JavaScript Environment</li>
+                <li>Direct Manipulation</li>
+                <li>Color Reference</li>
+                <li>Integration with Existing Apps</li>
+                <li>Building For TV Devices</li>
+                <li>Running On Device</li>
+                <li>Upgrading to new React Native version</li>
+                <li>Troubleshooting</li>
+                <li>Native Modules Setup</li>
+                <li>Out-of-Tree Platforms</li>
+
+
+            </ul>
+
+        </div>
+
+
+    </section>
+
+    <section class="article">
+       <h1>Style (стиль)
+       </h1>
+        <p>В React Native вы не используете специальный язык или синтаксис для определения стиля. Вы просто создаёте стиль, использую JavaScript. Все основные компоненты поддерживают prop с названием <span id="commandText">style.</span>  Имена стилей и их значения обычно совпадают с тем как CSS работает в web, за исключением имён, написанных с «верблюжьей оболочкой», например <span id="commandText">backgroundColor</span>  вместо <span id="commandText">background-color.</span>
+        </p>
+        <p> <span id="commandText">Style</span>  pror может быть простым старым объектом JavaScript. Это самый простой вариант и его мы используем для примеров кода. Вы также можете передать массив стилей – последний стиль в массиве имеет приоритет, поэтому вы можете использовать его для наследования стилей.
+        </p>
+        <p>Так как компоненты становятся сложнее, проще использовать <span id="commandText">StyleSheet.create</span>  для определения нескольких стилей в одном месте. Вот пример:
+        </p>
+        <div>
+            <img src="../../../Img/Style.png" alt="StyleIMG">
+        </div>
+        <p>Один из простейших шаблонов – заставить ваш компонент принимать style prop, который, в свою очередь, используется для стилизации подкомпонентов. Вы можете это использовать чтобы сделать каскадный стили (“cascade”), как в CSS.
+        </p>
+        <p>Есть ещё множество способов изменить стиль текста. Посмотрите <a href="http://facebook.github.io/react-native/docs/text">здесь</a>  полный список.
+        </p>
+        <p>Теперь вы можете делать свой текст красивым. Следующий шаг к становлению мастером стиля – это <a
+                href="http://facebook.github.io/react-native/docs/height-and-width">выучить как контролировать размер компонента.</a>
+        </p>
+    </section>
+
+</main>
+
+
+</body>
+</html>

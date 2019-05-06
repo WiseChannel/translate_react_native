@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>State</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+
+    <link rel="stylesheet" href="State.css">
+    <link rel="stylesheet" href="../../../media/media.css">
+
+</head>
+<body>
+
+<header>
+    <section>
+        <div class="container">
+            <div class="row">
+                <a href="../../../index.html"><img id="logoImg" src="../../../Img/header_logo.png" alt="LogoReact"></a>
+                <h3><a href="../../../index.html">React Native 0.59</a></h3>
+                <p><small>- by Wise</small></p>
+            </div>
+            <div id="listHead" class="row">
+                <ul>
+                    <li><a href="../The%20Basics/Getting%20Started/Getting_Started.html">Документация</a></li>
+                    <li><a href="../../../Blog/Blog.html">Блог</a></li>
+                    <li><a href="#">О Нас</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+</header>
+
+<main>
+    <div class="container">
+        <section class="fixedSec">
+            <ul>
+                <li><a href="../Getting_Started/Getting_Started.html">Getting Started</a></li>
+                <li><a href="Learn_the_Basics.html">Learn the Basics</a></li>
+                <li><a href="../Props/Props.html">Props</a></li>
+                <li><a href="State.html">State</a> </li>
+                <li><a href="../Style/Style.html">Style</a></li>
+                <li><a href="../Height_and_Weight/Height_and_Width.html">Height and Width</a></li>
+                <li><a href="../Layout%20with%20Flexbox/Layout_With_Flexbox.html">Layoute with Flexbox</a></li>
+                <li><a href="../Handing%20Text%20Input/Handing_Text_Input.html">Handing Text Inpute</a></li>
+                <li><a href="../Handing%20Touches/Handing_Touches.html">Handing Touches</a></li>
+                <li>Using a ScrollView</li>
+                <li>Networking</li>
+                <li>More Resources</li>
+            </ul>
+        </section>
+        <section class="mainArticle">
+            <article>
+                <h1>State</h1>
+                <p>Существует два типа данных, которые контролируют компонент: props и state. Props устанавливаются родителями и они зафиксированы на протяжении всего жизненного цикла компонента. Для данных, которые мы собираемся менять – мы должны использовать state.
+                </p>
+                <p>Обычно, следует инициализировать state в конструкторе, потом вызвать функцию setState когда хотите что-то поменять.
+                </p>
+                <p>Для примера, сделаем текст, который будет всё время мелькать. Текст устанавливается один раз, когда создаётся мелькающий компонент, так что текст – это prop. Состояние «Включён сейчас текст или выключен» со временем меняется, так что это – state.
+                </p>
+                <div>
+                    <img src="../../../Img/state.png" alt="State">
+                </div>
+                <p>В настоящем приложении, вы, вероятнее всего, не будете ставить таймер на state. Скорее всего вы будете устанавливать state, когда получите новые данные с сервера или от пользователя. Также вы можете использовать контейнер состояний
+                    <a href="https://redux.js.org/">Redux</a>  или <a href="https://mobx.js.org/">Mobx</a> , чтобы контролировать поток данных. В таком случае, лучше использовать Redux или Mobx, чтобы изменять состояние, чем использовать функцию setState.
+                </p>
+                <p>Когда вызван setState, BlinkApp перерендерит этот компонент. Вызывая setState по таймеру, компонент будет перерендериваться каждый щелчок таймера.
+                </p>
+                <p>State работает так же, как и в React, поэтому, для большей информации по state, вы можете почитать <a
+                        href="https://reactjs.org/docs/react-component.html#setstate">React.Component API</a> . После этого примера, вам может наскучить унылый чёрный текст в приложении. Чтобы делать более красивые вещи, вам надо
+                    <a href="http://facebook.github.io/react-native/docs/style">прочитать о Style.</a>
+                </p>
+            </article>
+        </section>
+    </div>
+</main>
+
+<footer>
+    <section>
+        <div class="footerContainer">
+            <p>2019 #TeamWork_WiseINC</p>
+            <p>Контакты</p>
+            <p>Последнее обновление 20.04.19</p>
+        </div>
+    </section>
+</footer>
+</body>
+</html>

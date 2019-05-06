@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="../../../Img/black_icon_react.png">
+    <title>Props</title>
+
+    <link rel="stylesheet" href="props.css">
+    <link rel="stylesheet" href="../../../media/media.scss">
+</head>
+<body>
+
+<header>
+    <section>
+        <div class="container">
+            <div class="row">
+                <a href="../../../index.html"><img id="logoImg" src="../../../Img/header_logo.png" alt="LogoReact"></a>
+                <h3><a href="../../../index.html">React Native 0.59</a></h3>
+                <p><small>- by Wise</small></p>
+            </div>
+            <div id="listHead" class="row">
+                <ul>
+                    <li><a href="../Getting Started/Getting_Started.html">Документация</a></li>
+                    <li><a href="../../../Blog/Blog.html">Блог</a></li>
+                    <li><a href="#">О Нас</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+</header>
+
+<main>
+
+    <section class="nameArticle">
+        <div>
+            <ul>
+                <li id="mainChapter"><b>The Basics</b></li>
+                <li><a href="../Getting Started/Getting_Started.html">Getting Started</a></li>
+                <li><a href="../Learn the Basics/Learn_the_Bacsics.html">Learn the Basics</a></li>
+                <li><a href="../Props/props.html">Props</a></li>
+                <li><a href="../State/state.html">State</a></li>
+                <li><a href="../Style/style.html">Style</a></li>
+                <li><a href="../../newFormatPage/Height_and_Weight/Height_and_Width.html">Heigth and Width</a></li>
+                <li><a href="../Layout%20with%20Flexbox/Layout_With_Flexbox.html">Layout with Flexbox</a></li>
+                <li><a href="../Handing%20Text%20Input/Handing_Text_Input.html">Handing Text Input</a></li>
+                <li><a href="../Handing%20Touches/Handing_Touches.html">Handing Touches</a></li>
+                <li>Using a ScrollView</li>
+                <li>Networking</li>
+                <li>More Resources</li>
+
+                <li id="mainChapter"><b>Guides</b></li>
+                <li>Components and APis</li>
+                <li>Platform Specific Code</li>
+                <li>Navigating Between Screens</li>
+                <li>Images</li>
+                <li>Animations</li>
+                <li>Accessibility</li>
+                <li>Improving User Experience</li>
+                <li>Timers</li>
+                <li>Debugging</li>
+                <li>Perfomance</li>
+                <li>Gesture Responder System</li>
+                <li>JavaScript Environment</li>
+                <li>Direct Manipulation</li>
+                <li>Color Reference</li>
+                <li>Integration with Existing Apps</li>
+                <li>Building For TV Devices</li>
+                <li>Running On Device</li>
+                <li>Upgrading to new React Native version</li>
+                <li>Troubleshooting</li>
+                <li>Native Modules Setup</li>
+                <li>Out-of-Tree Platforms</li>
+
+
+            </ul>
+
+        </div>
+
+
+    </section>
+
+    <section class="article">
+        <h1>Props</h1>
+        <p>Большинство компонентов можно изменять когда они уже созданы с разными параметрами. Эти параметры создания называются <span id="commandText">props.</span>
+        </p>
+        <p>Для примера, один из основных компонентов React Native – это <span id="commandText">Image.</span>  Когда вы делаете картинку, вы можете использовать prop, называемый <span id="commandText">source,</span>  чтобы контролировать какую картинку он покажет.
+        </p>
+        <div>
+            <img src="../../../Img/Props.png" alt="Props_Img">
+        </div>
+        <p>Обратите внимание на скобки, окружающие <span id="commandText">{pic}</span>  – они вставляют переменную <span id="commandText">pic</span>  в JSX. Вы можете поместить любое JavaScript выражение внутри скобок в JSX.
+        </p>
+        <p>Ваш собственный компонент также может использовать <span id="commandText">props.</span>  Это позволяет вам сделать единственный компонент, который используется во многих местах вашего приложения, с немного разными параметрами в разных местах. Просто обратитесь к <span id="commandText">this.props</span>  в вашей функции рендеринга. Вот пример:
+        </p>
+        <div>
+            <img src="../../../Img/Props_Img_Two.png" alt="Props_Img_Two">
+        </div>
+        <p>Использование <span id="commandText">name</span>  как prop, позволяет нам изменять <span id="commandText">Greeting</span>  компонент, поэтому мы может использовать это много раз для всех наших приветствий. Этот пример также использует <span id="commandText">Greeting</span>  компонент в JSX, прямо как встроенные компоненты. Возможность сделать это – то, что делает React таким крутым,- если вы хотите, чтобы у вас был другой набор примитивов пользовательского интерфейса, вы просто изобретаете другие.
+        </p>
+        <p>Другие нове вещи здесь – это <span id="commandText">View</span>  компонент. <span id="commandText">View</span>  полезный в качестве контейнера для других компонентов, чтобы помогать контролировать стиль и макет.
+        </p>
+        <p>С <span id="commandText">props</span>  и основными <span id="commandText">Text</span> , <span id="commandText">Image</span>  и <span id="commandText">View</span>  компонентами, вы можете делать много разных статичных экранов. Чтобы понять как сделать так, чтобы ваше приложение менялось со временем, вам надо
+            <a href="http://facebook.github.io/react-native/docs/state">прочитать о State.</a>
+        </p>
+    </section>
+
+</main>
+
+</body>
+</html>
