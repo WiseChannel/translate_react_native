@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Props</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+
+    <link rel="stylesheet" href="Networking.css">
+    <link rel="stylesheet" href="../../../media/media.css">
+
+
+</head>
+<body>
+
+<header>
+    <section>
+        <div class="container">
+            <div class="row">
+                <a href="../../../index.html"><img id="logoImg" src="../../../Img/header_logo.png" alt="LogoReact"></a>
+                <h3><a href="../../../index.html">React Native 0.59</a></h3>
+                <p><small>- by Wise</small></p>
+            </div>
+            <div id="listHead" class="row">
+                <ul>
+                    <li><a href="../../The%20Basics/Getting%20Started/Getting_Started.html">Документация</a></li>
+                    <li><a href="../../../Blog/Blog.html">Блог</a></li>
+                    <li><a href="#">О Нас</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+</header>
+
+<main>
+    <div class="container">
+        <section class="fixedSec">
+            <ul>
+                <li><a href="../Getting_Started/Getting_Started.html">Getting Started</a></li>
+                <li><a href="../Learn_the_Basics/Learn_the_Basics.html">Learn the Basics</a></li>
+                <li><a href="../Props/Props.html">Props</a></li>
+                <li><a href="../State/State.html">State</a></li>
+                <li><a href="../Style/Style.html">Style</a></li>
+                <li><a href="../Height_and_Weight/Height_and_Width.html">Height and Width</a></li>
+                <li><a href="../Layout%20with%20Flexbox/Layout_With_Flexbox.html">Layoute with Flexbox</a></li>
+                <li><a href="../Handing%20Text%20Input/Handing_Text_Input.html">Handing Text Inpute</a></li>
+                <li><a href="../Handing%20Touches/Handing_Touches.html">Handing Touches</a></li>
+                <li><a href="../UsingAScrollView/UsingAScrollView.html">Using a ScrollView</a></li>
+                <li><a href="Networking.html">Networking</a> </li>
+                <li>More Resources</li>
+            </ul>
+        </section>
+        <section class="mainArticle">
+            <article>
+               <h1>Сеть</h1>
+                <p>Многие мобильные приложения загружают ресурсы с удалённого URL. Возможно, вы захотите сделать POST запрос к REST API, или вам просто может понадобиться получить набор статичных данных с другого сервера.
+                </p>
+                <h1>Использование Fetch
+                </h1>
+                <p>React Native предоставляет Fetch API для ваших потребностей с сетями. Fetch покажется вам знакомым, если вы уже использовали XMLHttpRequest или другие сетевые API. Вы можете обратиться к руководству MDN по использованию Fetch для получения дополнительной информации.
+                </p>
+                <h1>Создание запроса
+                </h1>
+                <h1>Чтобы получить содержимое с произвольного URL, просто введите URL для получения:
+                </h1>
+                <div>
+                    <img src="../../../Img/NetworkingOne.png" alt="">
+                </div>
+                <p>Fetch также принимает необязательной второй аргумент, который позволяет настроить HTTP-запрос. Вы можете указать дополнительные заголовки или сделать POST запрос: </p>
+                <div>
+                    <img src="../../../Img/NetworkingTwo.png" alt="">
+                </div>
+                <p>Взгляните на Fetch запрос документацию для полного списка настроек.
+                </p>
+                <h1>Обработка ответа
+                </h1>
+                <p>Приведённые выше примеры показывают, каким образом вы можете сделать запрос. В большинстве случаев, вы захотите что-то сделать с ответом.
+                </p>
+                <p>Работа в сети – это асинхронная операция. Fetch методы возвращают Promise, что упрощает написание кода, который работает асинхронно: </p>
+                <div>
+                    <img src="../../../Img/NetworkingFour.png" alt="">
+                </div>
+                <p>Также вы можете использовать предложенный синтаксис ES2017 async/await в приложениях на React Native: </p>
+                <div>
+                    <img src="../../../Img/NetworkingFive.png" alt="">
+                </div>
+                <p>Не забывайте отлавливать любые ошибки, которые могут быть сгенерированы Fetch, иначе они будут отброшены молча. </p>
+                <div>
+                    <img src="../../../Img/NetworkingSix.png" alt="">
+                </div>
+                <p>По умолчанию, iOS заблокирует любой запрос, который не зашифрован с помощью SSL. Если вам нужно извлечь из открытого текста URL-адрес (который начинается с http), вам сначала надо добавить исключение App Transport Security. Более безопасно добавлять исключения только для тех доменов, к которым вы заранее знаете, что потребуется доступ. Если домены не известны до времени выполнения, то вы можете полностью отключить ATS. Обратите внимание, что с января 2017 года проверка Apple App Store будет требовать разумного обоснования дя отключения ATS. Смотрите документацию Apple для дополнительной информации.
+                </p>
+                <h1>Использование других сетевых библиотек
+                </h1>
+                <p>XMLHttpRequest API встроен в React Native. Это значит, что вы можете использовать библиотеки от третьих лиц, например frisbee или axios, или можете спользовать XMLHttpRequest API, если вам так удобнее. </p>
+                <div>
+                    <img src="../../../Img/NetworkingSeven.png" alt="">
+                </div>
+                <p>Модель безопасности для XMLHttpRequest отличается от сетевой, поскольку в нативных приложениях отсутствует концепция CORS.
+                </p>
+                <h1>Поддержка WebSocket
+                </h1>
+                <p>React Native также поддерживает WebSockets,- протокол, который обеспечивает полнодуплексные каналы связи по одному TCP-соединению. </p>
+                <div>
+                    <img src="../../../Img/NetworkingEight.png" alt="">
+                </div>
+                <h1>Известные проблемы с Fetch и аутентификацией базирующейся на cookie
+                </h1>
+                <p>Представленные ниже опции не работают с fetch
+                </p>
+                <ul>
+                    <li>redirect:manual</li>
+                    <li>credentials:omit
+                    </li>
+                    <li>Наличие одинаковых заголовков на Android приведёт к появлению только самого последнего. Временное решение можно найти здесь: https://github.com/facebook/react-native/issues/18837#issuecomment-398779994
+                    </li>
+                    <li>Аутентификация, основанная на cookie пока что не стабильна. Вы можете посмотреть некоторые проблемы здесь: https://github.com/facebook/react-native/issues/23185
+                    </li>
+                    <li>На iOS, при перенаправлении через 302, если отсутствует заголовок Set-Cookie, cookie не установлен должным образом. Поскольку перенаправление не может быть обработано вручную, это может вызвать сценарий, в котором возникают бесконечные запросы, если перенаправление является результатом истёкшего сеанса.
+                    </li>
+                </ul>
+            </article>
+        </section>
+    </div>
+</main>
+
+<footer>
+    <section>
+        <div class="footerContainer">
+            <p>2019 #TeamWork_WiseINC</p>
+            <p>Контакты</p>
+            <p>Последнее обновление 20.04.19</p>
+        </div>
+    </section>
+</footer>
+
+</body>
+</html>

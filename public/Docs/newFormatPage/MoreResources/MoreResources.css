@@ -75,6 +75,11 @@ main .container {
     main .container div img {
       max-width: 100%; }
 
+ul {
+  padding: 10px 0; }
+  ul li {
+    padding: 5px 0; }
+
 footer {
   height: 60px;
   background-color: #222222;

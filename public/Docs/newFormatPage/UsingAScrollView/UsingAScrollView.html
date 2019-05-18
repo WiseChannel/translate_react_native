@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Style</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+
+    <link rel="stylesheet" href="UsingAScrollView.css">
+    <link rel="stylesheet" href="../../../media/media.css">
+
+</head>
+<body>
+
+<header>
+    <section>
+        <div class="container">
+            <div class="row">
+                <a href="../../../index.html"><img id="logoImg" src="../../../Img/header_logo.png" alt="LogoReact"></a>
+                <h3><a href="../../../index.html">React Native 0.59</a></h3>
+                <p><small>- by Wise</small></p>
+            </div>
+            <div id="listHead" class="row">
+                <ul>
+                    <li><a href="../The%20Basics/Getting%20Started/Getting_Started.html">Документация</a></li>
+                    <li><a href="../../../Blog/Blog.html">Блог</a></li>
+                    <li><a href="#">О Нас</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+</header>
+
+<main>
+    <div class="container">
+        <section class="fixedSec">
+            <ul>
+                <li><a href="../Getting_Started/Getting_Started.html">Getting Started</a></li>
+                <li><a href="../Learn_the_Basics/Learn_the_Basics.html">Learn the Basics</a></li>
+                <li><a href="../Props/Props.html">Props</a></li>
+                <li><a href="../State/State.html">State</a> </li>
+                <li><a href="../Style/Style.html">Style</a></li>
+                <li><a href="../Height_and_Weight/Height_and_Width.html">Height and Width</a></li>
+                <li><a href="../Layout%20with%20Flexbox/Layout_With_Flexbox.html">Layoute with Flexbox</a></li>
+                <li><a href="../Handing%20Text%20Input/Handing_Text_Input.html">Handing Text Inpute</a></li>
+                <li><a href="../Handing%20Touches/Handing_Touches.html">Handing Touches</a></li>
+                <li><a href="UsingAScrollView.html">Using a ScrollView</a></li>
+                <li><a href="../Networking/Networking.html">Networking</a></li>
+                <li>More Resources</li>
+            </ul>
+        </section>
+        <section class="mainArticle">
+            <h1>Использование ScrollView</h1>
+            <p><a href="https://facebook.github.io/react-native/docs/scrollview">ScrollView </a> – это универсальный контейнер с прокруткой, который может содержать несколько компонентов и представлений (view). Элементы с возможностью прокрутки не обязательно должны быть однородными, вы можете покручивать как по вертикали, так и по горизонтали (установив свойство <span id="commandText">Horizontal</span> ).
+            </p>
+            <p>Этот пример создаёт вертикальный <span id="commandText">ScrollView</span>  с картинками и текстом.
+            </p>
+            <img src="../../../Img/UsingAScrollView.png" alt="UsingAScrollView">
+            <p>ScrollView можно настроить так, чтобы пролистывать представления (view) с помощью жестов смахивания, используя <span id="commandText">pagingEnabled</span>  prop. Свайп по горизонтали между представлениями может быть реализован и на Android, с помощью
+                <a href="https://facebook.github.io/react-native/docs/viewpagerandroid">ViewPagerAndroid </a> компонента.
+            </p>
+            <p>ScrollView с одним элементом может использоваться, чтобы позволить пользователю масштабировать содержимое. Установите <span id="commandText">maximumZoomScale</span>  и <span id="commandText">minimumZoomScale</span>  props и ваш пользователь сможет увеличивать и уменьшать масштаб.
+            </p>
+            <p>ScrollView лучше всего работает для представления маленького количество элементов с ограниченным размером. Все элементы и представления <span id="commandText">ScrollView</span>  отображаются, даже если их нет на экране. Если у вас большой список элементов, которые могут поместиться на экране, то лучше использовать
+                <a href="https://facebook.github.io/react-native/docs/using-a-listview">FlatList</a>.  Итак, давайте теперь узнаем о представлениях списка.
+            </p>
+            </article>
+        </section>
+    </div>
+</main>
+
+<footer>
+    <section>
+        <div class="footerContainer">
+            <p>2019 #TeamWork_WiseINC</p>
+            <p>Контакты</p>
+            <p>Последнее обновление 20.04.19</p>
+        </div>
+    </section>
+</footer>
+</body>
+</html>
